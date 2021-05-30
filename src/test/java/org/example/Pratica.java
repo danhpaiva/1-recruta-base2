@@ -76,7 +76,7 @@ public class Pratica {
 
         WebElement success = driver.findElement(By.xpath("//div[@align='center']"));
         String successToString = success.getText();
-;       Assert.assertTrue(successToString.contains("Operação realizada com sucesso."));
+        Assert.assertTrue(successToString.contains("Operação realizada com sucesso."));
 
         successToString = successToString.replace("Operação realizada com sucesso.\n" +
                 "[ Visualizar Caso Enviado ", "");
