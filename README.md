@@ -1,4 +1,3 @@
-# 1º Recruta Base2
+# 1º Recruitment Base2
 
-⚙️Recruitment Base2.<br>
 Training focused on automated applications using Selenium WebDriver.
